@@ -1,62 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T15:52:00.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" etag="thflv635cyJFxKmet_J7" version="22.1.0" type="github">
-  <diagram name="Page-1" id="e8k4Dpm2lTozbZvrrGJk">
-    <mxGraphModel dx="1393" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#E6E6E6" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-11-12T15:37:32.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102.0.0.0" version="22.1.0" etag="Dso7rBn-M_Xq8wtilphm" type="github">
+  <diagram name="Page-1" id="cBAlY0FpruFaTQ3yJH27">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pcsVT6udnXXOX7vafc1i-1" value="Початок" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="30" width="84" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-2" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="411.5" y="114" as="sourcePoint" />
-            <mxPoint x="412" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-3" value="Введення показників лічильника в моменти часу t1 та t2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="292" y="150" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-4" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="411.5" y="220" as="sourcePoint" />
-            <mxPoint x="411.5" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-6" value="Розрахунок різниці між показниками, різниця = t2 - t1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcsVT6udnXXOX7vafc1i-11" target="pcsVT6udnXXOX7vafc1i-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="426" y="490" />
-              <mxPoint x="426" y="490" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-11" value="Розрахунок кількості спожитої електроенергії, спожита енергія = різниця" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="352" y="380" width="148" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-14" value="" style="endArrow=classic;html=1;rounded=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="413" y="330" as="sourcePoint" />
-            <mxPoint x="413" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcsVT6udnXXOX7vafc1i-16" target="pcsVT6udnXXOX7vafc1i-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-16" value="Розрахунок вартості, вартість = спожита енергія * ціну за одиницю енергії" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="490" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pcsVT6udnXXOX7vafc1i-18" target="pcsVT6udnXXOX7vafc1i-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-18" value="Виведення вартості " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="590" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="pcsVT6udnXXOX7vafc1i-20" value="Кінець" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="690" width="80" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
